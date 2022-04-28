@@ -1,0 +1,50 @@
+/* reset css */
+.welcome-page--header ul,
+.welcome-page--header ul li a {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    list-style-type: 0;
+    list-style: none;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.welcome-page--header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-page--header ul {
+    display: flex;
+}
+
+.welcome-page .content {
+    background-color: rgb(134, 121, 106);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    border:0.5rem rgb(215, 213, 201) dashed;
+}
+.welcome-page .content img{
+    width: 100%;
+}
+.welcome-page{
+    background-color: black;
+    color: aliceblue;
+}
+
+.welcome-page .content marquee{
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-page main {
+    display: flex;
+    justify-content: space-evenly;
+}
