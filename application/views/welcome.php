@@ -16,81 +16,75 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 	<header class="welcome-page--header">
 		<ul>
-			<li><a href="<?php echo base_url() ?>/index.php/welcome/contact_me">contact me</a></li>
-			<li><a href="<?php echo base_url() ?>/index.php/welcome/about_me">about me</a></li>
-
+			<li><a href="<?php echo base_url() ?>index.php/welcome/contact_me">contact me</a></li> |
+			<li><a href="<?php echo base_url() ?>index.php/welcome/about_me">about me</a></li>
 		</ul>
-		<a href="<?php echo base_url() ?>/index.php/welcome/register"><button>Register</button></a>
+		<a href="<?php echo base_url() ?>index.php/welcome/register"><button>Register</button></a>
 
 	</header>
 
 	<main>
 		<div class="content">
-		<img src="<?php echo base_url(); ?>assets/images/main-pic.jpg" />
-		<marquee direction="up">
-			<p>راستي آيا جايي خبري هست هنوز ؟</p>
-			<p>مانده خاكستر گرمي ، جايي ؟</p>
-			<p>در اجاقي طمع شعله نمي بندم خردك شرري هست هنوز ؟</p>
-		</marquee>
-	</div>
+			<img src="<?php echo base_url(); ?>assets/images/main-pic.jpg" />
+			<marquee direction="up">
+				<p>راستي آيا جايي خبري هست هنوز ؟</p>
+				<p>مانده خاكستر گرمي ، جايي ؟</p>
+				<p>در اجاقي طمع شعله نمي بندم خردك شرري هست هنوز ؟</p>
+			</marquee>
+		</div>
 
-	<div class="content">
-	<img src="<?php echo base_url(); ?>assets/images/main-pic.jpg" />
+		<div class="content">
+			<img src="<?php echo base_url(); ?>assets/images/main-pic.jpg" />
+			<marquee direction="up">
+				<p>
+					خشکید و کویر لوت شد دریامان
+				</p>
 
-		<p>
-			«بنويس و آسان شو …»
-		</p>
-		<p>
-			به رمز «تو عجب ديوانه و خودكامه‌ای»
+				<p>
+					امروز بد و ازآن بتر فردامان
 
-		</p>
-		<p>
-			من سري بالا زنم چون ماكيان
+				</p>
 
-		</p>
-		<p>
-			از پس ِ نوشيدن هر جرعه آب
+				<p>
+					زین تیره دل دیو سفت مشتی شمر
 
-		</p>
-		<p>
-			مادرم جنباند از افسوس سر
+				</p>
+				<p>
+					چون آخرت یزید شد دنیامان
 
-		</p>
-		<p>
-			هرچه آن گويد اين بيند جواب»
+				</p>
 
-		</p>
+			</marquee>
+		</div>
+		<div class="content">
+			<img src="<?php echo base_url(); ?>assets/images/main-pic.jpg" />
+			<marquee direction="up">
 
-	</div>
+				<p>
+					باغ بی برگی
 
-	<div class="content">
-	<img src="<?php echo base_url(); ?>assets/images/main-pic.jpg" />
+				</p>
+				<p>
+					روز و شب تنهاست
 
-		<p>
-			«بنويس و آسان شو …»
-		</p>
-		<p>
-			به رمز «تو عجب ديوانه و خودكامه‌ای»
+				</p>
+				<p>
+					با سکوت پاکِ غمناکش
 
-		</p>
-		<p>
-			من سري بالا زنم چون ماكيان
+				</p>
+				<p>
+					سازِ او باران، سرودش باد
 
-		</p>
-		<p>
-			از پس ِ نوشيدن هر جرعه آب
+				</p>
 
-		</p>
-		<p>
-			مادرم جنباند از افسوس سر
 
-		</p>
-		<p>
-			هرچه آن گويد اين بيند جواب»
 
-		</p>
+				<p>راستي آيا جايي خبري هست هنوز ؟</p>
+				<p>مانده خاكستر گرمي ، جايي ؟</p>
+				<p>در اجاقي طمع شعله نمي بندم خردك شرري هست هنوز ؟</p>
+			</marquee>
+		</div>
 
-	</div>	
 	</main>
 
 </body>

@@ -27,9 +27,17 @@
     justify-content: center;
     width: 25%;
     border:0.5rem rgb(215, 213, 201) dashed;
+    height:250px;
+    position: relative;
+
 }
 .welcome-page .content img{
     width: 100%;
+    height:250px;
+    opacity: 0.1;
+
+    position: absolute;
+    top:0;
 }
 .welcome-page{
     background-color: black;

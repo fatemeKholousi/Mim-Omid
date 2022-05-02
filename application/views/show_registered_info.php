@@ -12,7 +12,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: hsla(89, 43%, 51%, 0.3);
+        background-color:slategray;
     }
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

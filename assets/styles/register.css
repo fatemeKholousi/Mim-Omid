@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to bottom, #ff99ff 0%, #6600cc 100%);
+  background-color: #6b6375;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -39,6 +39,7 @@ border-radius: 12px;
   display: inline-block;
   border: none;
   background: #f1f1f1;
+  direction: rtl;
 }
 
 input[type='text']:focus{
@@ -53,7 +54,7 @@ hr {
 
 /* Set a style for the submit button */
 .registerbtn {
-  background-color: #4c04aa;
+  background-color:black;
   border-radius: 12px;
   font-weight: 700;
   font-size: 18px;
