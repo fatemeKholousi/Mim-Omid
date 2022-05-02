@@ -7,7 +7,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <head>
 	<link rel="stylesheet" href="<?php echo base_url(); ?>assets/styles/welcome.css" type="text/css">
 
-
 	<meta charset="utf-8">
 	<title>Akhavan Sales</title>
 </head>
@@ -28,7 +27,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<main>
 		<div class="content">
 		<img src="<?php echo base_url(); ?>assets/images/main-pic.jpg" />
-		<marquee direction="down">
+		<marquee direction="up">
 			<p>راستي آيا جايي خبري هست هنوز ؟</p>
 			<p>مانده خاكستر گرمي ، جايي ؟</p>
 			<p>در اجاقي طمع شعله نمي بندم خردك شرري هست هنوز ؟</p>
