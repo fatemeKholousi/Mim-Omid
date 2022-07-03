@@ -1,100 +1,167 @@
-
 /* reset css */
-html{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-indent: 0;
-    list-style-type: 0;
-    list-style: none;
-    color: inherit;
-    text-decoration: inherit;
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: 0;
+  list-style: none;
+  color: inherit;
+  text-decoration: inherit;
 }
 .welcome-page--header ul,
 .welcome-page--header ul li a {
-    margin: 0;
-    padding: 0;
-    text-indent: 0;
-    list-style-type: 0;
-    list-style: none;
-    color: inherit;
-    text-decoration: inherit;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: 0;
+  list-style: none;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .welcome-page--header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .welcome-page--header ul {
-    display: flex;
+  display: flex;
 }
 
 .welcome-page .content {
-    background-color: rgb(134, 121, 106);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 25%;
-    border:0.5rem rgb(215, 213, 201) dashed;
-    height:250px;
-    position: relative;
-
+  background-color: rgb(134, 121, 106);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  border: 0.5rem rgb(215, 213, 201) dashed;
+  height: 250px;
+  position: relative;
 }
-.welcome-page .content img{
-    width: 100%;
-    height:250px;
-    opacity: 0.1;
+.welcome-page .content img {
+  width: 100%;
+  height: 250px;
+  opacity: 0.1;
 
-    position: absolute;
-    top:0;
+  position: absolute;
+  top: 0;
 }
-.welcome-page{
-    background-color: black;
-    color: aliceblue;
+.welcome-page {
+  background-color: black;
+  color: aliceblue;
 }
 
-.welcome-page .content marquee{
-    direction: rtl;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.welcome-page .content marquee {
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .welcome-page main {
+  display: flex;
+flex-direction: column;
+}
+.welcome-page main h1{
+    text-align: right;
+    margin-right: 5rem;
+}
+
+.welcome-page main .dancer-box{
     display: flex;
     justify-content: space-evenly;
 }
 
-
 ul {
-    width: 100%;
-    height: 5%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(133, 39, 39);
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    /* padding: 14px 16px; */
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
-  
-  .active {
-    background-color: #04AA6D;
-  }
+  width: 100%;
+  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(213, 159, 121);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+li .button-holder {
+  display: flex;
+  flex-grow: 4;
+}
+
+.button-register,
+.button-login {
+  background-color: #24976d;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+}
+
+.welcome-page--header section .header-image {
+  border-radius: 100%;
+  border: #555353 2px solid;
+  margin: 8px;
+}
+.welcome-page--header section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  gap: 32px;
+  font-size: 20px;
+}
+.welcome-page--header section p {
+  text-align: left;
+}
+
+.books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  border-top: 2px solid rgb(95, 96, 97);
+  border-bottom: 2px solid rgb(95, 96, 97);
+}
+
+
+footer{
+    direction: rtl;
+    background-color: #555353;
+    padding: 3rem;
+    margin:3rem;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+footer strong{
+    color:bisque;
+    font-size:2rem;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}

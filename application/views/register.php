@@ -11,29 +11,45 @@
 <body class="register-page">
 
 
-    <form method="POST" action="<?php echo base_url() ?>index.php/welcome/show_registered_info" enctype="multipart/form-data" class="register-form">
-
+    <form method="POST" action="<?= base_url('index.php/register/registerNow') ?>" enctype="multipart/form-data" class="register-form">
 
         <h1>ثبت نام</h1>
 
         <div>
-            <label for="first-name"><b>نام</b></label>
-            <input type="text" placeholder="Enter Name" name="first-name" id="first-name" required value="<?php echo set_value('first-name') ?>">
+            <label for="username"><b>نام کاربری</b></label>
+            <input type="text" placeholder="User Name" name="username" id="username" required value="<?php echo set_value('username') ?>">
         </div>
 
         <div>
-            <label for="last-name"><b> نام خانوادگی</b></label>
-            <input type="text" placeholder="Enter Last Name" name="last-name" id="last-name" required value="<?php echo set_value('last-name') ?>">
+            <label for="password"><b> پسورد </b></label>
+            <input type="password" placeholder="Password" name="password" id="password" required value="<?php echo set_value('password') ?>">
         </div>
         <div>
             <label for="email"><b>ایمیل</b></label>
-            <input type="text" placeholder="Enter Email" name="email" id="email" required value="<?php echo set_value('email') ?>">
+            <input minlength="6" pattern="^[^ ]+@[^ ]+\.[a-z]{2,6}$" type="email" placeholder="Enter Email" name="email" id="email" required value="<?php echo set_value('email') ?>">
+        </div>
+
+        <div>
+            <label for="level"><b>سطح دسترسی </b></label>
+
+            <select name="level" id="level" required>
+                <option value="select" disabled>انتخاب کنید </option>
+
+                <!-- same as staff -->
+                <option value="3">نقد کننده</option>
+                <!-- same as project leader -->
+                <option value="2">تحلیلگر </option>
+            </select>
         </div>
 
         <hr>
 
         <button type="submit" class="registerbtn">ارسال</button>
-
+        <?php
+        if ($this->session->flashdata('seccess')) { ?>
+            <p><?= $this->session->flashdata('success') ?></p>
+            }
+        <?php } ?>
     </form>
 
 </body>

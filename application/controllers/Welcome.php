@@ -34,9 +34,7 @@ class Welcome extends CI_Controller
 		$this->load->view('contact_me');
 	}
 
-	function register(){
-		$this->load->view('register');
-	}
+
 	
 	function show_registered_info(){
 		$this->load->view('show_registered_info');

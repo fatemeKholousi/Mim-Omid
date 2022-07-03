@@ -51,6 +51,8 @@
                 <b> <?php print_r($_POST['last-name']); ?></b>
             </h4>
             <p><?php print_r($_POST['email']); ?></p>
+            <p><?php print_r($_POST['level']); ?></p>
+
         </div>
     </div>
     <p> </p>
