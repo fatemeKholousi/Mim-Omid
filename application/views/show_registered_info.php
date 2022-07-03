@@ -16,11 +16,16 @@
     }
 
     .card {
+        margin-top: 10%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         transition: 0.3s;
         width: 250px;
         flex-direction: column;
         background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
 
     }
 
@@ -39,24 +44,14 @@
 </head>
 
 <body class="show-info-page">
-    <h1>
-        :اطلاعات ثبت شده
-    </h1>
+
     <div class="card">
         <img src="<?php echo base_url(); ?>assets/images/leaf.jpg" alt="Avatar" style="width:250px; height:250px" />
 
-        <div class="container">
 
-            <h4><b><?php print_r($_POST['first-name']); ?> </b>
-                <b> <?php print_r($_POST['last-name']); ?></b>
-            </h4>
-            <p><?php print_r($_POST['email']); ?></p>
-            <p><?php print_r($_POST['level']); ?></p>
-
-        </div>
+            کاربر جدید خوش آمدید 
     </div>
-    <p> </p>
-    <?php  ?>
+        <p><a href="<?php echo base_url()?>/index.php/welcome">بازگشت </a></p>
 
 </body>
 

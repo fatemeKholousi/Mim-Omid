@@ -11,7 +11,7 @@ class Project_Leader extends CI_Controller {
 
 	function index() {
 		if($this->session->userdata('level')==='2') {
-			$this->load->view('projleader_view');
+			$this->load->view('project_leader_view');
 		} else {
 			echo "Access Denied!";
 		}

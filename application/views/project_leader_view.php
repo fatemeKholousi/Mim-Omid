@@ -7,6 +7,6 @@
     <title>Project LEader</title>
 </head>
 <body>
-<h1>شما  با دسترسی تحلیلگر وارد شدید</h1>
+<h1>شما  با دسترسی تحلیلگر  وارد شدید</h1>
 </body>
 </html>
