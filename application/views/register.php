@@ -30,9 +30,6 @@
             <input type="text" placeholder="Enter Email" name="email" id="email" required value="<?php echo set_value('email') ?>">
         </div>
 
-   
-
-
         <hr>
 
         <button type="submit" class="registerbtn">ارسال</button>

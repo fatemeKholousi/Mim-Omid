@@ -15,11 +15,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
 	<header class="welcome-page--header">
-		<ul>
-			<li><a href="<?php echo base_url() ?>index.php/welcome/contact_me">contact me</a></li> |
-			<li><a href="<?php echo base_url() ?>index.php/welcome/about_me">about me</a></li>
-		</ul>
-		<a href="<?php echo base_url() ?>index.php/welcome/register"><button>Register</button></a>
+
+	<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <!-- <li><a href="#contact">Contact</a></li> -->
+  <!-- <li style="float:right"><a class="active" href="#about">About</a></li> -->
+
+  <li><a href="<?php echo base_url() ?>index.php/welcome/contact_me">contact me</a></li> |
+
+  <a href="<?php echo base_url() ?>index.php/welcome/register"><button>Register</button></a>
+  <li><a  style="float:right" href="<?php echo base_url() ?>index.php/welcome/about_me">درباره ما</a></li>
+
+  
+</ul>
+
+
+
+		
+		
 
 	</header>
 
