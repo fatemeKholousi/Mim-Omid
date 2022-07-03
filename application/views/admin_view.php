@@ -7,6 +7,7 @@
     <title>admin view</title>
 </head>
 <body>
-admin view
+
+<h1>شما  با دسترسی ادمین وارد شدید</h1>
 </body>
 </html>

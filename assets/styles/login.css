@@ -21,6 +21,7 @@ html {
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
     border-radius: 10px;
+    direction: rtl;
   }
   
   .login-box h2 {
@@ -46,9 +47,7 @@ html {
     background: transparent;
   }
   .login-box .user-box label {
-    position: absolute;
-    top:0;
-    left: 0;
+
     padding: 10px 0;
     font-size: 16px;
     color: #fff;
@@ -89,6 +88,11 @@ html {
   }
   
   .login-box button {
+    margin-top:2rem;
+    border:unset;
+    background-color: white;
+    width: 80%;
+    height: 30px;
     position: absolute;
     display: block;
   }

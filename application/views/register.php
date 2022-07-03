@@ -45,6 +45,8 @@
         <hr>
 
         <button type="submit" class="registerbtn">ارسال</button>
+        <p><a href="<?php echo base_url()?>/index.php/welcome">بازگشت </a></p>
+
         <?php
         if ($this->session->flashdata('seccess')) { ?>
             <p><?= $this->session->flashdata('success') ?></p>

@@ -17,21 +17,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<header class="welcome-page--header">
 
 		<ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#news">News</a></li>
 
 
-			<li><a href="<?php echo base_url() ?>index.php/welcome/contact_me"> ارتباط با ما</a></li>
 
 
-			<li><a style="float:right" href="<?php echo base_url() ?>index.php/welcome/about_me">درباره ما</a></li>
+				<li><a href="<?php echo base_url() ?>index.php/welcome/contact_me"> ارتباط با ما</a></li>
 
-			<div>
+
+				<li><a style="float:right" href="<?php echo base_url() ?>index.php/welcome/about_me">درباره ما</a></li>
 				<a href="<?php echo base_url() ?>index.php/register" class="button-register">ثبت نام</a>
 
 
 				<a href="<?php echo base_url() ?>index.php/login" class="button-login">ورود</a>
-			</div>
 
 
 		</ul>
@@ -130,18 +127,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		</div>
 	</main>
 
-<footer>
-<strong>بیوگرافی</strong>
-<pre>
+	<footer>
+		<strong>بیوگرافی</strong>
+		<pre>
 
 مهدی اخوان ثالث (۱۰ اسفند ۱۳۰۷ – ۴ شهریور ۱۳۶۹)، شاعر پرآوازه، ادیب و موسیقی‌پژوه ایرانی بود. نام و تخلص وی در اشعارش م. امید بود.
 او برگزیده اولین دوره جشنواره بین‌المللی شعر فجر در بخش ملی و میهنی بود.
 اشعار او زمینهٔ اجتماعی دارند و گاه حوادث زندگی مردم را به تصویر کشیده‌است؛ همچنین دارای لحن حماسی آمیخته با صلابت و سنگینی شعر خراسانی و نیز در بردارندهٔ ترکیبات نو و تازه است.
 اخوان ثالث در شعر کلاسیک فارسی توانا بود و در ادامه به شعر نو گرایید. از وی اشعاری در هر دو سبک به جای مانده‌است. همچنین او آشنا به نوازندگی تار و مقام‌های موسیقایی بود.
 </pre>
-</footer>
+	</footer>
 
-<i class="copyright">توسعه توسط فاطمه خلوصی و زهرا نصیری</i>
+	<i class="copyright">توسعه توسط فاطمه خلوصی و زهرا نصیری</i>
 </body>
 
 </html>

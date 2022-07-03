@@ -13,14 +13,18 @@
         <h2>ورود</h2>
         <form action="<?php echo site_url('Login/auth'); ?>" method="POST">
             <div class="user-box">
+            <label>نام کاربری</label>
+
                 <input type="username" name="username" required>
-                <label>Username</label>
             </div>
             <div class="user-box">
+            <label>رمز عبور</label>
+
                 <input type="password" name="password" required>
-                <label>Password</label>
             </div>
-            <button type="submit" name="submit">submit</button>
+            <button type="submit" style="margin-top:0" name="submit">ارسال</button>
+            <p><a href="<?php echo base_url()?>/index.php/welcome">بازگشت </a></p>
+
         </form>
     </div>
     <!-- partial -->

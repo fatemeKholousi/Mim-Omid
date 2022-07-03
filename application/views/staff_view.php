@@ -7,6 +7,7 @@
     <title>Staff</title>
 </head>
 <body>
-    Staff
+<h1>شما  با دسترسی تحلیلگر وارد شدید</h1>
+
 </body>
 </html>
